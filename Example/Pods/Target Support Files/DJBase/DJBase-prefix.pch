@@ -1,0 +1,46 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+//
+//  djbase.pch
+//  DJBase
+//
+//  Created by CSS on 2019/5/28.
+//  Copyright © 2019年 djkj. All rights reserved.
+//
+
+#ifndef djbase_pch
+#define djbase_pch
+
+#pragma mark - 宏
+//#import "djUtilsMacros.h"
+//#import "djDataKeyMacros.h"
+//#import "djFontAndColorMacros.h"
+
+#pragma mark - Categorys
+//#import "UIView+Helpers.h"
+//#import "UIFont+Helpers.h"
+//#import "NSString+Helpers.h"
+//#import "UIImage+Helpers.h"
+//#import "UIColor+Helpers.h"
+
+/** 打印日志 */
+#define LOG_LEVEL_DEF ddLogLevel
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+#ifdef DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif  /* DEBUG */
+
+#endif /* djbase_pch */

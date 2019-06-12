@@ -24,6 +24,10 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8BDE3771E2159D46210B3D73 /* Pods_DJMoudlePersonal_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AC8399BA88D7D31535C996 /* Pods_DJMoudlePersonal_Tests.framework */; };
 		8CC0BB5A4F7534952FFE4E08 /* Pods_DJMoudlePersonal_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2316669732A49F77CDD11260 /* Pods_DJMoudlePersonal_Example.framework */; };
+		F2756BB822B0EFD00032781D /* DJPersonalViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2756BAE22B0EFD00032781D /* DJPersonalViewModel.m */; };
+		F2756BB922B0EFD00032781D /* DJPersonalMoudleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2756BB222B0EFD00032781D /* DJPersonalMoudleVC.m */; };
+		F2756BBA22B0EFD00032781D /* DJPersonalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2756BB522B0EFD00032781D /* DJPersonalModel.m */; };
+		F2756BBC22B0F1540032781D /* 1539946347696.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2756BBB22B0F1540032781D /* 1539946347696.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		2316669732A49F77CDD11260 /* Pods_DJMoudlePersonal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJMoudlePersonal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31FE6BE44E1EF40672FB4D17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		31FE6BE44E1EF40672FB4D17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4895896F84E1B18F37EC0ABF /* Pods-DJMoudlePersonal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJMoudlePersonal_Tests.release.xcconfig"; path = "Target Support Files/Pods-DJMoudlePersonal_Tests/Pods-DJMoudlePersonal_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DJMoudlePersonal_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJMoudlePersonal_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +66,18 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82FAE592FC3CE532488C67E1 /* Pods-DJMoudlePersonal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJMoudlePersonal_Example.debug.xcconfig"; path = "Target Support Files/Pods-DJMoudlePersonal_Example/Pods-DJMoudlePersonal_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A00B178E96D3FEE9DD0E2AD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A00B178E96D3FEE9DD0E2AD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C1AC8399BA88D7D31535C996 /* Pods_DJMoudlePersonal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJMoudlePersonal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC36147F34AD1DE207C98265 /* DJMoudlePersonal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DJMoudlePersonal.podspec; path = ../DJMoudlePersonal.podspec; sourceTree = "<group>"; };
+		CC36147F34AD1DE207C98265 /* DJMoudlePersonal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DJMoudlePersonal.podspec; path = ../DJMoudlePersonal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD6D73A9BE3E06C71FBB4E7B /* Pods-DJMoudlePersonal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJMoudlePersonal_Example.release.xcconfig"; path = "Target Support Files/Pods-DJMoudlePersonal_Example/Pods-DJMoudlePersonal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E8B46A30C0B560AD8AEDD5E8 /* Pods-DJMoudlePersonal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJMoudlePersonal_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DJMoudlePersonal_Tests/Pods-DJMoudlePersonal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2756BAE22B0EFD00032781D /* DJPersonalViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPersonalViewModel.m; sourceTree = "<group>"; };
+		F2756BAF22B0EFD00032781D /* DJPersonalViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPersonalViewModel.h; sourceTree = "<group>"; };
+		F2756BB122B0EFD00032781D /* DJPersonalMoudleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPersonalMoudleVC.h; sourceTree = "<group>"; };
+		F2756BB222B0EFD00032781D /* DJPersonalMoudleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPersonalMoudleVC.m; sourceTree = "<group>"; };
+		F2756BB422B0EFD00032781D /* DJPersonalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPersonalModel.h; sourceTree = "<group>"; };
+		F2756BB522B0EFD00032781D /* DJPersonalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPersonalModel.m; sourceTree = "<group>"; };
+		F2756BBB22B0F1540032781D /* 1539946347696.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1539946347696.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +143,7 @@
 		6003F593195388D20070C39A /* Example for DJMoudlePersonal */ = {
 			isa = PBXGroup;
 			children = (
+				F2756BAC22B0EFD00032781D /* DJPersonalMoudle */,
 				6003F59C195388D20070C39A /* DJAppDelegate.h */,
 				6003F59D195388D20070C39A /* DJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +197,60 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		F2756BAC22B0EFD00032781D /* DJPersonalMoudle */ = {
+			isa = PBXGroup;
+			children = (
+				F2756BAD22B0EFD00032781D /* ViewModel */,
+				F2756BB022B0EFD00032781D /* Controller */,
+				F2756BB322B0EFD00032781D /* Model */,
+				F2756BB622B0EFD00032781D /* View */,
+				F2756BB722B0EFD00032781D /* Assets */,
+			);
+			path = DJPersonalMoudle;
+			sourceTree = "<group>";
+		};
+		F2756BAD22B0EFD00032781D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2756BAE22B0EFD00032781D /* DJPersonalViewModel.m */,
+				F2756BAF22B0EFD00032781D /* DJPersonalViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2756BB022B0EFD00032781D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2756BB122B0EFD00032781D /* DJPersonalMoudleVC.h */,
+				F2756BB222B0EFD00032781D /* DJPersonalMoudleVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2756BB322B0EFD00032781D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2756BB422B0EFD00032781D /* DJPersonalModel.h */,
+				F2756BB522B0EFD00032781D /* DJPersonalModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2756BB622B0EFD00032781D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2756BB722B0EFD00032781D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F2756BBB22B0F1540032781D /* 1539946347696.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		F69BA0A7425CA0DF76FC1A27 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +259,6 @@
 				E8B46A30C0B560AD8AEDD5E8 /* Pods-DJMoudlePersonal_Tests.debug.xcconfig */,
 				4895896F84E1B18F37EC0ABF /* Pods-DJMoudlePersonal_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,6 +346,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				F2756BBC22B0F1540032781D /* 1539946347696.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,13 +392,39 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DJMoudlePersonal_Example/Pods-DJMoudlePersonal_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/DJBase/DJBase.framework",
 				"${BUILT_PRODUCTS_DIR}/DJMoudlePersonal/DJMoudlePersonal.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLiteRepairKit/sqliterk.framework",
+				"${BUILT_PRODUCTS_DIR}/SWTableViewCell/SWTableViewCell.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJBase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJMoudlePersonal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqliterk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWTableViewCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlcipher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -368,9 +460,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2756BB922B0EFD00032781D /* DJPersonalMoudleVC.m in Sources */,
 				6003F59E195388D20070C39A /* DJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DJViewController.m in Sources */,
+				F2756BB822B0EFD00032781D /* DJPersonalViewModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F2756BBA22B0EFD00032781D /* DJPersonalModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

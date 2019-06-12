@@ -1,0 +1,6 @@
+framework module DJBase {
+  umbrella header "DJBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

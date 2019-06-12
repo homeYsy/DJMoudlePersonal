@@ -1,0 +1,22 @@
+{
+  "name": "DJMoudlePersonal",
+  "version": "0.1.0",
+  "summary": "A short description of DJMoudlePersonal.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/864745256@qq.com/DJMoudlePersonal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "864745256@qq.com": "wyh900207@126.com"
+  },
+  "source": {
+    "git": "https://github.com/864745256@qq.com/DJMoudlePersonal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DJMoudlePersonal/Classes/**/*"
+}

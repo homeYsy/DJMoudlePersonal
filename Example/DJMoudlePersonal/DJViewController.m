@@ -7,7 +7,7 @@
 //
 
 #import "DJViewController.h"
-
+#import "DJPersonalMoudleVC.h"
 @interface DJViewController ()
 
 @end
@@ -17,7 +17,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+
+}
+- (IBAction)toPersonal:(id)sender {
+    NSLog(@"........");
+    DJPersonalMoudleVC   *djPeronalVC = [DJPersonalMoudleVC new];
+//    [self.navigationController pushViewController:djPeronalVC animated:YES];
+    [self presentViewController:djPeronalVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,6 @@
+framework module DJMoudlePersonal {
+  umbrella header "DJMoudlePersonal-umbrella.h"
+
+  export *
+  module * { export * }
+}
